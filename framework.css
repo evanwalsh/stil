@@ -58,7 +58,8 @@ form select{width:auto;}
 form input[type="radio"],form input[type="checkbox"]{width:auto;}
 
 /* @group messages */
-.success,.error,.notice{color:#fff;padding:10px;font-weight:bold;font-size:13px;}
+.success,.error,.notice,.info{color:#fff;padding:10px;font-weight:bold;font-size:13px;}
 .success{background:#20B31B;border:#168A16 1px solid;}
 .error{background:#B31B1B;border:#8A1616 1px solid;}
 .notice{background:#B3A11B;border:#8A7616 1px solid;}
+.info{background:#555;border:#000 1px solid;}
