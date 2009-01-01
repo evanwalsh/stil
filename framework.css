@@ -57,6 +57,9 @@ form textarea{height:150px;}
 form select{width:auto;}
 form input[type="radio"],form input[type="checkbox"]{width:auto;}
 
+/* @group code stuff */
+code,pre,tt,kbd{font:11px Monaco,'Andale Mono','Liberation Mono','Courier New',monotype;}
+
 /* @group messages */
 .success,.error,.notice,.info{color:#fff;padding:10px;font-weight:bold;font-size:13px;}
 .success{background:#20B31B;border:#168A16 1px solid;}
