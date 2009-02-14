@@ -55,7 +55,7 @@ form input,form textarea,form select{background:#fff;border:#aaa 1px solid;margi
 form input:focus,form textarea:focus,form select:focus{border:#000 1px solid;outline:0;}
 form textarea{height:150px;}
 form select{width:auto;}
-form input[type="radio"],form input[type="checkbox"]{width:auto;}
+form input[type="radio"],form input[type="checkbox"],form input[type="submit"]{width:auto;}
 
 /* @group code stuff */
 code,pre,tt,kbd{font:11px Monaco,'Andale Mono','Liberation Mono','Courier New',monotype;}
