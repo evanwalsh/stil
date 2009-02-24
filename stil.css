@@ -18,7 +18,6 @@ fieldset,img,abbr,acronym{border:0}
 a{outline:0}
 
 /* @group browser-specific resets */
-*{text-shadow:#000 0 0 0;} /* fixes Webkit subpixel light on dark problem */
 form input:focus,form textarea:focus,form select:focus{outline:0;} /* Webkit "blue glow" removed */
 
 /* @group body and paragraphs */
