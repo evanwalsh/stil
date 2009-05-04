@@ -1,7 +1,6 @@
 /*
-	Framework Prototype
+	Stil
 	by Evan Walsh
-	version 1.0
 */
 
 /* @group reset all styles */
@@ -19,6 +18,7 @@ a{outline:0}
 
 /* @group browser-specific resets */
 form input:focus,form textarea:focus,form select:focus{outline:0;} /* Webkit "blue glow" removed */
+*{text-shadow:rgba(0,0,0,.01) 0 0 0;} /* Force better anti-aliasing in Webkit */
 
 /* @group body and paragraphs */
 body{font:12px 'Helvetica Neue',Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;}
@@ -55,13 +55,7 @@ form input:focus,form textarea:focus,form select:focus{border:#000 1px solid;out
 form textarea{height:150px;}
 form select{width:auto;}
 form input[type="radio"],form input[type="checkbox"],form input[type="submit"]{width:auto;}
+form input[type="submit"]{width:auto;display:block;}
 
 /* @group code stuff */
-code,pre,tt,kbd{font:11px Monaco,'Andale Mono','Liberation Mono','Courier New',monotype;}
-
-/* @group messages */
-.success,.error,.notice,.info{color:#fff;padding:10px;font-weight:bold;font-size:13px;}
-.success{background:#20B31B;border:#168A16 1px solid;}
-.error{background:#B31B1B;border:#8A1616 1px solid;}
-.notice{background:#B3A11B;border:#8A7616 1px solid;}
-.info{background:#555;border:#000 1px solid;}
+code,pre{font:11px Monaco,'Andale Mono','Liberation Mono','Courier New',monotype;}
