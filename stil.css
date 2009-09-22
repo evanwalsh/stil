@@ -18,10 +18,13 @@ a{outline:0}
 
 /* @group browser-specific resets */
 form input:focus,form textarea:focus,form select:focus{outline:0;} /* Webkit "blue glow" removed */
-*{text-shadow:rgba(0,0,0,.01) 0 0 0;} /* Force better anti-aliasing in Webkit */
+body {-webkit-text-stroke:1px transparent;} /* These two force Safari to render text beautifully */
+@media only screen and (max-device-width:480px) {
+  body{-webkit-text-stroke:0 black;
+}
 
 /* @group body and paragraphs */
-body{font:12px 'Helvetica Neue',Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;}
+body{font:13px 'Helvetica Neue',Helvetica,Arial,'Liberation Sans',FreeSans,sans-serif;}
 p{margin:10px 0;}
 p + p{margin-top:0;}
 abbr,acronym{border-bottom:#000 1px dotted;}
@@ -41,7 +44,7 @@ a:link,a:active,a:visited{color:#0000ff;}
 a:hover{color:#ff0000;}
 
 /* @group lists */
-ul,ol{margin:10px 0 10px 30px;}
+ul,ol{margin:10px 0 10px 30px;list-style-position:inside;}
 ul{list-style:disc;}
 ol{list-style:decimal;}
 
