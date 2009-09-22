@@ -20,7 +20,7 @@ a{outline:0}
 form input:focus,form textarea:focus,form select:focus{outline:0;} /* Webkit "blue glow" removed */
 body {-webkit-text-stroke:1px transparent;} /* These two force Safari to render text beautifully */
 @media only screen and (max-device-width:480px) {
-  body{-webkit-text-stroke:0 black;
+  body{-webkit-text-stroke:0 black;}
 }
 
 /* @group body and paragraphs */
